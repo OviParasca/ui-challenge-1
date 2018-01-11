@@ -1,79 +1,35 @@
-img {
-  max-width: 100%;
-}
 
 body {
-  line-height: 1.5;
-  font-size: 100%;
-  color: #313131;
+    background-color: #e3effb; 
 }
 
-main {
-  margin: 0 20px;
+#outer {
+    display: inline-flex;
+    height: 100%;
+    width: 960px;
+    margin: auto;
+    position: absolute;
+    top: 0; 
+    left: 0;
+    bottom: 0; 
+    right: 0;
 }
 
-hr {
-  margin: 1em;
-  width: 80%;
+div {
+    float: left;
+    color: white;
+    display: table;
 }
 
-/*TEXT STYLES
-=======================================*/
-p {
-  font-size: 1em;
+.container {
+    height: 768px;
+    width: 960px;
+    margin: 0 auto;
 }
 
-address {
-  display: inline-block;
-}
-
-/*LINK STYLES
-=======================================*/
-
-a, a:link, a:active {
-  text-decoration: none;
-  color: #777;
-}
-
-a:hover, a:focus {
-  color: #29506D;
-}
-
-a:visited {
-}
-
-/*FORM STYLES
-=======================================*/
-label {
-  font-size: 3em;
-}
-
-input {
-  width: 100%;
-  margin: .5em 0;
-  border: 1px solid #ccc;
-  border-width: 0 0 1px 0;
-  border-radius: 0;
-}
-
-input[type="checkbox"] {
-  width: .28em;
-  height: .28em;
-  font-size: 3em;
-}
-
-textarea {
-  width: 100%;
-  margin: .5em 0;
-  font-size: 2em;
-  border: 1px solid #ccc;
-  border-radius: 0;
-}
-
-input:invalid, textarea:invalid {
-  border-color: #AE3F3C;
-}
-
-input:valid, textarea:valid {
-  border-color: #89CB8E;
+.content {
+    float: none;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
 }
